@@ -331,3 +331,123 @@
         height: 20vh;
         width: 40vh;
     }
+
+/* MORAD et SAMY */
+
+
+/*  nouvelle branche  */
+
+
+
+/* ///// MAIN ///// */
+
+.image-accueil {
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding-right: 20%;
+    background: url("images/accueil/photo.png") no-repeat right fixed;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-accueil div {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.image-accueil div h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.realisations img {
+    height: 80px;
+    border: #e85c5c solid 2px;
+    transition: 0.8s;
+    padding: 10px 100px;
+    margin: 10px;
+}
+
+.realisations img:hover {
+    background-color: #e85c5c;
+    padding: 1px 91px;
+}
+
+.realisations {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10px;
+    flex-wrap: wrap;
+}
+
+.realisations p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* ///// CONTACT ///// */
+
+.contact {
+    margin: 150px;
+}
+
+.contact div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.contact div:first-child input:first-child {
+    margin-right: 20px;
+}
+
+.contact div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact :last-child input {
+    width: 620px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #e85c5c;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    margin-bottom: 30px;
+    padding: 0 5px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-family: 'Maven Pro', Courier, monospace;
+}
+
+textarea {
+    border: inherit;
+    border-bottom: 1px solid #e85c5c;
+    border-left: 1px solid #e85c5c;
+    border-right: 1px solid #e85c5c;
+    outline: none;
+    width: 620px;
+    resize: none;
+    font-family: 'Maven Pro', Courier, monospace;
+    padding: 10px 20px;
+}
+
+textarea::placeholder {
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+
